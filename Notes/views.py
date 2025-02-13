@@ -11,3 +11,9 @@ def foryou(request):
         
     }
     return render(request, 'notes/foryou.html', context)
+
+def itstime(request):
+    context = {
+        
+    }
+    return render(request, 'notes/itstime.html', context)

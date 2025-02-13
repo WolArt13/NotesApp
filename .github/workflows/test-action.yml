@@ -40,7 +40,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Линтер
-        run: flake8 stocks_products --exclude migrations --ignore E501,F401,E302,W293,W391,W292
+        run: flake8 DjangoServer --exclude migrations --ignore E501,F401,E302,W293,W391,W292
 
       - name: Тесты
         run: python manage.py test

@@ -14,7 +14,7 @@ jobs:
       PG_HOST: ${{ secrets.PG_HOST }}
       PG_PORT: ${{ secrets.PG_PORT }}
     services:
-    - postgres:
+      postgres:
         postgres_main:
           image: postgres:latest
           env:

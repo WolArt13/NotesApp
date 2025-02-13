@@ -1,0 +1,151 @@
+/* Общие стили */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f5f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Шапка */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Контейнер */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Карточка заметки */
+.note-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    transition: transform 0.3s;
+}
+
+.note-card:hover {
+    transform: translateY(-5px);
+}
+
+.note-title {
+    font-size: 1.8em;
+    color: #007bff;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.note-content {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Заголовки (h1, h2, h3) */
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.75em;
+    color: #333;
+}
+
+/* Списки */
+ul, ol {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+li {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Кнопки */
+.button {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #218838;
+}
+
+/* Формы */
+form {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Ссылки */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Футер */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.9em;
+}

@@ -62,5 +62,8 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           password: ${{ secrets.SERVER_PASSWORD }}
           script: |
-            pwd
-            ls
+            cd NotesApp/
+            git pull origin main
+            python manage.py migrate
+            python manage.py collectstatic --noinput
+            sudo service gunicorn restart
